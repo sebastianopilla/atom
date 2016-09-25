@@ -1,0 +1,11 @@
+# ignore the IntelliJ files
+*.ipr
+*.iml
+*.iws
+
+# ignore the artifacts
+target/
+
+# ignore the dependency cache
+dependency.cache
+
