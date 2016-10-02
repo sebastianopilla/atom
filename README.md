@@ -2,7 +2,7 @@
 
 Atom is a weekend project to implement an opinionated dependency injection container in Java in the spirit of ATG Nucleus.
 
-I call this project "opinionated" because it doesn't try to implement any JSR-330-style annotations nor constructor injection, however useful those things can be. Instead, the only available injection type is setter injection, implemented by introspecting Java Beans, just as ATG Nucleus does from about the year 2000.
+I call this project "opinionated" because it doesn't try to implement any JSR-330-style annotations nor constructor injection, however useful those things can be. Instead, the only available injection type is setter injection, implemented by introspecting Java Beans, just as ATG Nucleus has done from about the year 2000.
 
 The dependencies are expressed by writing .properties files in a particular location, known as the CONFIGPATH. In Atom, the CONFIGPATH is a list of directories, called "layers", containing properties files: a component is the combination of (at least) one Java class and (at least) one properties file, and the location of the properties file relative to the root of the CONFIGPATH is the full name of the component.
 
