@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
   <groupId>com.datafaber</groupId>
   <artifactId>atom</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>atom</name>
   <packaging>jar</packaging>
   <properties>
