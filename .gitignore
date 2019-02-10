@@ -2,6 +2,7 @@
 *.ipr
 *.iml
 *.iws
+.idea/
 
 # ignore the artifacts
 target/
